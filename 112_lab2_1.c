@@ -20,7 +20,7 @@ int main()
     }
     else if(total>=65&&total<=69)
     {
-        printf("C");
+        printf("C+");
     }
     else if(total>=60&&total<=64)
     {
