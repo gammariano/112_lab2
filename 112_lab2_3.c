@@ -23,6 +23,6 @@ int main()
         b=c;
         c=count;
     }
-    scanf("%c%c%c" ,&a2,&b2,&c2);
+    scanf("%s" ,a1);
 
 }
