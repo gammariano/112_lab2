@@ -5,9 +5,7 @@ int main()
     char name,hand1='/',hand2=92;
     scanf("%c" ,&name);
     scanf("%d" ,&date);
-    int i;
-    i=date%10;
-    if((i/5)==1)
+    if((date%10)/5==1)
     {
         printf("%c" ,hand2);
     }
@@ -41,11 +39,10 @@ int main()
             printf("{X_X}");
         }
     }
-    if((i/5)==1)
+    if((date%10)/5==1)
     {
         printf("%c" ,hand1);
     }
     return 0;
-
 }
 
