@@ -26,6 +26,10 @@ int main()
     {
         day+=1;
     }
-
-
+    if(day>7)
+    {
+        day-=7;
+    }
+    printf("%d",day);
+    return 0;
 }
