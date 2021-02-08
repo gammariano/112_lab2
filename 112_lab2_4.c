@@ -31,15 +31,15 @@ int main()
     }
     else if(date%2==0)
     {
-        if(date<10)
+        if(name>=65&&name<=73)
         {
             printf("{@_@}");
         }
-        else if(date>=10&&date<=20)
+        else if(name>=74&&name<=82)
         {
             printf("{*v*}");
         }
-        else if(date>20)
+        else if(name>=83&&name<=90)
         {
             printf("{X_X}");
         }
