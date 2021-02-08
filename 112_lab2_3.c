@@ -5,6 +5,24 @@ int main()
     char a1[5];
     int i,b1[5];
     scanf("%d %d %d" ,&a,&b,&c);
+    if(a>b)
+    {
+        count=a;
+        a=b;
+        b=count;
+    }
+    if(a>c)
+    {
+        count=a;
+        a=c;
+        c=count;
+    }
+    if(b>c)
+    {
+        count=b;
+        b=c;
+        c=count;
+    }
     scanf("%c%c%c" ,&a2,&b2,&c2);
 
 }
