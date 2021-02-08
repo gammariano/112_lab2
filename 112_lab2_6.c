@@ -1,6 +1,10 @@
 #include<stdio.h>
+#include<conio.h>
 int main()
 {
+    char n[15];
     int number;
-    scanf("%d", &number);
+    scanf("%s",n);
+
+
 }
