@@ -20,9 +20,10 @@ int main()
             case '8': printf("Eight"); break;
             case '9': printf("Nine"); break;
         }
-
+        if(i<n[i+1])
+        {
+            printf("-");
+        }
     }
     return 0;
-
-
 }
