@@ -1,10 +1,10 @@
 #include<stdio.h>
 int main()
 {
-    double a,b,c,total;
-    scanf("%ld" ,&a);
-    scanf("%ld" ,&b);
-    scanf("%ld" ,&c);
+    int a,b,c,total;
+    scanf("%d" ,&a);
+    scanf("%d" ,&b);
+    scanf("%d" ,&c);
     total=a+b+c;
     if(total>=80&&total<=100)
     {
