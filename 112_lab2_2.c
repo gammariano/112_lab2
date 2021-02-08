@@ -15,25 +15,20 @@ int main()
         if(time>200)
         {
             a-=200;
-            a=(a+((time-200)*3))/60.00;
-            printf("%.2f",a);
-        }
-        else
-        {
-            printf("%.2f",a);
+            i+=a*3;
+            i+=b*3/60.00;
         }
     }
-    if(promo=='B')
+    else if(promo=='B')
     {
+        i+=299.00;
         if(time>400)
         {
-            b=(b+((time-400)*2))/60.00;
-            printf("%.2f",b);
-        }
-        else
-        {
-            printf("%.2f",b);
+            a-=400;
+            i+=a*2;
+            i+=b*2/60.00;
         }
     }
+    printf("%.2f",i);
     return 0;
 }
