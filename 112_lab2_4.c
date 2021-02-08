@@ -8,4 +8,12 @@ int main()
     scanf("%c" ,&name);
     printf("Enter Birth Date:");
     scanf("%d" ,&date);
+    int i;
+    i=date%10;
+    if((i/5)==1)
+    {
+        printf("%c" ,hand2);
+    }
+
 }
+
