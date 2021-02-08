@@ -1,9 +1,9 @@
 #include<stdio.h>
 int main()
 {
-    int a,b,c,count;
+    int a,b,c,i,count;
     char a1[5];
-    int i,b1[5];
+    int b1[5];
     scanf("%d %d %d" ,&a,&b,&c);
     if(a>b)
     {
@@ -24,5 +24,9 @@ int main()
         c=count;
     }
     scanf("%s" ,a1);
+    for(i=0;i<3;i++)
+    {
+
+    }
 
 }
