@@ -34,5 +34,9 @@ int main()
     {
         printf("D");
     }
-
+    else if(total>=0&&total<=49)
+    {
+        printf("F");
+    }
+    return 0;
 }
