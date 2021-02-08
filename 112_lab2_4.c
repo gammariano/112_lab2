@@ -14,7 +14,7 @@ int main()
     {
         printf("%c" ,hand2);
     }
-    if((name-65)%2==0)
+    if((name-65)%2==1)
     {
        if(date<10)
        {
@@ -29,7 +29,7 @@ int main()
            printf("(T_T)");
        }
     }
-    else if((name-65)%2==1)
+    else if((name-65)%2==0)
     {
         if(date<10)
         {
@@ -44,6 +44,11 @@ int main()
             printf("{X_X}");
         }
     }
+    if((i/5)==1)
+    {
+        printf("%c" ,hand1);
+    }
+    return 0;
 
 }
 
