@@ -1,16 +1,16 @@
 #include<stdio.h>
 int main()
 {
+    float time,a=199.00,b=299.00;
     char promo;
-    float time,a=199.00,b=299.00,a2,b2;
     scanf("%c" ,&promo);
     scanf("%f" ,&time);
     if(promo=='A')
     {
         if(time>200)
         {
-            a2=a+((time-200)*3);
-            printf("%.2f",a2);
+            a=(a+((time-200)*3))+0.40;
+            printf("%.2f",a);
         }
         else
         {
@@ -21,8 +21,8 @@ int main()
     {
         if(time>400)
         {
-            b2=b+((time-400)*2);
-            printf("%.2f",b2);
+            b=(b+((time-400)*2))+0.40;
+            printf("%.2f",b);
         }
         else
         {
