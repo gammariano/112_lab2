@@ -39,5 +39,6 @@ int main()
             b1[i]=c;
         }
     }
-
+    printf( "%d %d %d", b1[0], b1[1], b1[2] );
+    return 0;
 }
