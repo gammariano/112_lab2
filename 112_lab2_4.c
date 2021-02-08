@@ -14,22 +14,22 @@ int main()
     {
         printf("%c" ,hand2);
     }
-    if((name-65)%2==1)
+    if(date%2==1)
     {
-       if(date<10)
+       if(name>=65&&name<=73)
        {
            printf("(^_^)");
        }
-       else if(date>=10&&date<=20)
+       else if(name>=74&&name<=82)
        {
            printf("(*o*)");
        }
-       else if(date>20)
+       else if(name>=83&&name<=90)
        {
            printf("(T_T)");
        }
     }
-    else if((name-65)%2==0)
+    else if(date%2==0)
     {
         if(date<10)
         {
