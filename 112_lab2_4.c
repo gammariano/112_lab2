@@ -29,6 +29,21 @@ int main()
            printf("(T_T)");
        }
     }
+    else if((name-65)%2==1)
+    {
+        if(date<10)
+        {
+            printf("{@_@}");
+        }
+        else if(date>=10&&date<=20)
+        {
+            printf("{*v*}");
+        }
+        else if(date>20)
+        {
+            printf("{X_X}");
+        }
+    }
 
 }
 
