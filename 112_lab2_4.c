@@ -2,12 +2,12 @@
 int main()
 {
     int date;
-    char name,hand1='/',hand2=92;
+    char name,hand=92;
     scanf("%c" ,&name);
     scanf("%d" ,&date);
     if(date%10==5)
     {
-        printf("%c" ,hand2);
+        printf("%c" ,hand);
     }
     if(date%2==1)
     {
@@ -41,7 +41,7 @@ int main()
     }
     if(date%10==5)
     {
-        printf("%c" ,hand1);
+        printf("/");
     }
     return 0;
 }
