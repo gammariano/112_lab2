@@ -2,9 +2,9 @@
 int main()
 {
     char promo;
-    float time,a=199,b=299,i,sec;
+    float time,a=199.00,b=299.00,i,sec;
     scanf("%c" ,&promo);
-    scanf("%.2f" ,&time);
+    scanf("%f" ,&time);
     if(promo=='A')
     {
         if(time<=200)
@@ -17,7 +17,22 @@ int main()
             sec=time*60;
             i=sec*(3.00/60.00);
             a+=i;
-
+            printf("%.2f",a);
+        }
+    }
+    if(promo=='B')
+    {
+        if(time<=400)
+        {
+            printf("%.2f" ,b);
+        }
+        else if(time>400)
+        {
+            time-=400;
+            sec=time*60;
+            i=sec*(2.00/60.00);
+            b+=i;
+            printf("%.2f",b);
         }
     }
 }
