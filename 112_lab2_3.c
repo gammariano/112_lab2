@@ -26,7 +26,18 @@ int main()
     scanf("%s" ,a1);
     for(i=0;i<3;i++)
     {
-
+        if(a1[i]=='A')
+        {
+            b1[i]=a;
+        }
+        else if(a1[i]=='B')
+        {
+            b1[i]=b;
+        }
+        else if(a1[i]=='C')
+        {
+            b1[i]=c;
+        }
     }
 
 }
