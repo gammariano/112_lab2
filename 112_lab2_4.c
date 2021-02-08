@@ -14,6 +14,21 @@ int main()
     {
         printf("%c" ,hand2);
     }
+    if((name-65)%2==0)
+    {
+       if(date<10)
+       {
+           printf("(^_^)");
+       }
+       else if(date>=10&&date<=20)
+       {
+           printf("(*o*)");
+       }
+       else if(date>20)
+       {
+           printf("(T_T)");
+       }
+    }
 
 }
 
