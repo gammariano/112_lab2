@@ -18,4 +18,9 @@ int main()
         case 9 :
         case 11 : num=30; break;
     }
+    while(i<num)
+    {
+        i+=7;
+    }
+
 }
